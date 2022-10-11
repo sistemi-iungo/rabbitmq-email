@@ -9,6 +9,7 @@ dep_ranch = ranch $(DEP_RANCH_VERSION)
 dep_eiconv = hex 1.0.0
 dep_gen_smtp = git https://github.com/sistemi-iungo/gen_smtp.git 1.1.1-1
 
+
 DEPS = gen_smtp rabbit_common amqp_client rabbit eiconv
 
 TEST_DEPS = rabbitmq_ct_helpers rabbitmq_ct_client_helpers amqp_client eiconv
