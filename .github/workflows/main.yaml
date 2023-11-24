@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        otp-version: [25]
+        otp-version: [25.1,25.2,25.3]
         elixir-version: ['1.14']
     steps:
       - uses: actions/checkout@v3
